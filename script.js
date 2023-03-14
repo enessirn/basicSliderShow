@@ -8,6 +8,7 @@ let sliderImages = [
 ]
 
 let imgElement = document.createElement("img")
+slider.appendChild(imgElement) 
 
 let sayac = 0
 function sliderShow() {
@@ -20,8 +21,8 @@ function sliderShow() {
 
 
 }
+
 setInterval(() => {
     sliderShow()
 }, 1000);
 
-slider.appendChild(imgElement)
