@@ -1,13 +1,13 @@
 * {
-    box-sizing: border-box;
+
     margin: 0;
     padding: 0;
 }
 .container-fluid {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background: #2C3333;
-    padding: 10px 50px;
+
     
 }
 .container {
